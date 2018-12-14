@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b995a1d20cad471a962aaa0c0cd9c7fa" Name="Diagram1">
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncActionItem" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncAlia" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncCalendar" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncContact" Width="1.5" PointX="9.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncCRMhistory" Width="1.5" PointX="11.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncCRMOppty" Width="1.5" PointX="11.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncCustomer" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncDelete" Width="1.5" PointX="13.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncEmployee" Width="1.5" PointX="13.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncForecast" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncForedetail" Width="1.5" PointX="15.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncLead" Width="1.5" PointX="15.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncOpportunity" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncOpportunityDetail" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncOrderDetail" Width="1.5" PointX="19.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncOrder" Width="1.5" PointX="19.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncProgram" Width="1.5" PointX="19.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncQuote" Width="1.5" PointX="13.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncSJAM" Width="1.5" PointX="15.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncTripReport" Width="1.5" PointX="17.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.SJAMsField" Width="1.5" PointX="19.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblActionItem" Width="1.5" PointX="10" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblAlia" Width="1.5" PointX="21.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblCalendar" Width="1.5" PointX="21.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblContact" Width="1.5" PointX="5.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblCRMhistory" Width="1.5" PointX="21.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblCRMOppty" Width="1.5" PointX="21.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblCustomer" Width="1.5" PointX="3" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblDelete" Width="1.5" PointX="23.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblEmployee" Width="1.5" PointX="0.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblflt" Width="1.5" PointX="23.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblForecast" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblForedetail" Width="1.5" PointX="7.5" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblLead" Width="1.5" PointX="23.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblOpportunity" Width="1.5" PointX="5.25" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblOpportunityDetail" Width="1.5" PointX="7.5" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblOrderDetail" Width="1.5" PointX="7.5" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblOrder" Width="1.5" PointX="5.25" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblProgram" Width="1.5" PointX="7.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblQuote" Width="1.5" PointX="23.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblSJAM" Width="1.5" PointX="23.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblsynch" Width="1.5" PointX="15.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblTripReport" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.Calendar" Width="1.5" PointX="17.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.locSyncCalendarTest" Width="1.5" PointX="25.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.SJAMsAuto" Width="1.5" PointX="25.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblforeIDholder" Width="1.5" PointX="25.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.tblsale" Width="1.5" PointX="25.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchTestModel.testlocsync" Width="1.5" PointX="25.75" PointY="22.75" IsExpanded="true" />
+        <AssociationConnector Association="SJAMsSynchTestModel.tblActionItem__F3CE7992_5DFC_497A_926A_0A7308A0EB8F_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchTestModel.tblContacts__68D20006_A9F2_4A0D_97BD_882799DF18CB_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchTestModel.tblCustomers__9A891971_1D58_443E_807B_85C6FEE17A7D_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchTestModel.tblForecast__D3281332_5C81_4680_8435_02FBDF86A9F8_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchTestModel.tblOpportunities__F7CD7982_DA3C_420D_B53D_61F065723570_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchTestModel.tblOrders__12681672_3EE0_4285_ADFB_3BEE88F9E451_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchTestModel.tblForedetails__764CFBE8_0A0C_44F9_9BC6_F0DDE824DB75_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchTestModel.tblOpportunityDetails__E344C925_7D5E_420F_97A5_B1F482BBB964_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchTestModel.tblOrderDetails__27E9B706_8E23_496D_AFD6_33C001D60FF3_" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,85 @@
+﻿@model IEnumerable<SQLApplication.Models.tblActionItem>
+
+
+@{
+    ViewBag.Title = "ActionItems";
+}
+
+<h2>ActionItems</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+    <br />
+    <table class="col-md-1">
+        <tr>
+            <td>Status</td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Open" class="btn btn-default" style="font-size : 12px; width: 75px; height: 15px; padding-bottom:20px;" onclick="location.href='@Url.Action("btnOpen", "Home")'" /></td>
+            <td><input type="submit" value="Pending" class="btn btn-default" style="font-size : 12px; width: 75px; height: 15px; padding-bottom:20px;" onclick="location.href='@Url.Action("btnPending", "Home")'" /></td>
+            <td><input type="submit" value="Closed" class="btn btn-default" style="font-size : 12px; width: 75px; height: 15px; padding-bottom:20px;" onclick="location.href='@Url.Action("btnClosed", "Home")'" /></td>
+        </tr>
+    </table>
+    <br />
+    <br />
+</p>
+<table class="table" style="font-size: 12px;">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Action_Item)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Owners)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Due_Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Updated)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Sales)
+        </th>*@
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Action_Item)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Owners)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Due_Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Updated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateDate)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.Sales)
+            </td>*@
+
+            <td class="col-md-1 right"><input type="submit" value="Save" class="btn btn-default" onclick="location.href='@Url.Action("ActionItems", "Home")'" /></td>
+            @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |*@
+            @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
+            @*@Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+
+        </tr>
+    }
+
+</table>

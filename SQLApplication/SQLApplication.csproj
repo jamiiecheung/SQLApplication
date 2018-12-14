@@ -46,10 +46,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -152,6 +160,210 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Calendar.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CRMinput_Result.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\hawd_Result.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncActionItem.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncAlia.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncCalendar.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncCalendarTest.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncContact.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncCRMhistory.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncCRMOppty.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncCustomer.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncDelete.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncEmployee.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncForecast.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncForedetail.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncLead.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncOpportunity.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncOpportunityDetail.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncOrder.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncOrderDetail.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncProgram.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncQuote.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncSJAM.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\locSyncTripReport.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\qrySales_Result.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\qryTripReports_Result.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\retactionitems_Result.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SJAMsAuto.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SJAMsField.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblActionItem.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblAlia.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblCalendar.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblContact.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblCRMhistory.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblCRMOppty.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblCustomer.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblDelete.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblEmployee.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblflt.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblForecast.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblForedetail.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblforeIDholder.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblLead.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblOpportunity.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblOpportunityDetail.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblOrder.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblOrderDetail.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblProgram.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblQuote.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblsale.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblSJAM.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblsynch.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tbltolocapp_Result.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\tblTripReport.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TestDatabase.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestDatabase.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TestDatabase.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TestDatabase.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestDatabase.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\testlocsync.cs">
+      <DependentUpon>TestDatabase.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -163,11 +375,44 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\TestDatabase.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TestDatabase.edmx</DependentUpon>
+      <LastGenOutput>TestDatabase.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\TestDatabase.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TestDatabase.edmx</DependentUpon>
+      <LastGenOutput>TestDatabase.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <EntityDeploy Include="Models\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\TestDatabase.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>TestDatabase.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\TestDatabase.edmx.diagram">
+      <DependentUpon>TestDatabase.edmx</DependentUpon>
+    </Content>
+    <None Include="Properties\PublishProfiles\sjams2019 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -193,10 +438,10 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\ActionItems.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -210,6 +455,9 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

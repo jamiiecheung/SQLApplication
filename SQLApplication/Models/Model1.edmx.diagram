@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="909c1bc6cdb04da3b7ece1aa23a9dc24" Name="Diagram1">
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncActionItem" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncAlia" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncCalendar" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncContact" Width="1.5" PointX="9.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncCRMhistory" Width="1.5" PointX="11.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncCRMOppty" Width="1.5" PointX="11.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncCustomer" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncDelete" Width="1.5" PointX="13.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncEmployee" Width="1.5" PointX="13.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncForecast" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncForedetail" Width="1.5" PointX="15.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncLead" Width="1.5" PointX="15.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncOpportunity" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncOpportunityDetail" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncOrderDetail" Width="1.5" PointX="19.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncOrder" Width="1.5" PointX="19.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncProgram" Width="1.5" PointX="19.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncQuote" Width="1.5" PointX="13.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncSJAM" Width="1.5" PointX="15.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncTripReport" Width="1.5" PointX="17.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.SJAMsField" Width="1.5" PointX="19.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.sysdiagram" Width="1.5" PointX="21.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblActionItem" Width="1.5" PointX="10" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblAlia" Width="1.5" PointX="21.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblCalendar" Width="1.5" PointX="21.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblContact" Width="1.5" PointX="5.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblCRMhistory" Width="1.5" PointX="21.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblCRMOppty" Width="1.5" PointX="21.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblCustomer" Width="1.5" PointX="3" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblDelete" Width="1.5" PointX="23.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblEmployee" Width="1.5" PointX="0.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblflt" Width="1.5" PointX="23.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblForecast" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblForedetail" Width="1.5" PointX="7.5" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblLead" Width="1.5" PointX="23.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblOpportunity" Width="1.5" PointX="5.25" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblOpportunityDetail" Width="1.5" PointX="7.5" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblOrderDetail" Width="1.5" PointX="7.5" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblOrder" Width="1.5" PointX="5.25" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblProgram" Width="1.5" PointX="7.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblQuote" Width="1.5" PointX="23.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblSJAM" Width="1.5" PointX="23.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblsynch" Width="1.5" PointX="15.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblTripReport" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.Calendar" Width="1.5" PointX="17.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.locSyncCalendarTest" Width="1.5" PointX="25.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.SJAMsAuto" Width="1.5" PointX="25.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblforeIDholder" Width="1.5" PointX="25.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.tblsale" Width="1.5" PointX="25.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SJAMsSynchMetroModel.testlocsync" Width="1.5" PointX="25.75" PointY="22.75" IsExpanded="true" />
+        <AssociationConnector Association="SJAMsSynchMetroModel.tblActionItem__F3CE7992_5DFC_497A_926A_0A7308A0EB8F_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchMetroModel.tblContacts__68D20006_A9F2_4A0D_97BD_882799DF18CB_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchMetroModel.tblCustomers__9A891971_1D58_443E_807B_85C6FEE17A7D_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchMetroModel.tblForecast__D3281332_5C81_4680_8435_02FBDF86A9F8_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchMetroModel.tblOpportunities__F7CD7982_DA3C_420D_B53D_61F065723570_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchMetroModel.tblOrders__12681672_3EE0_4285_ADFB_3BEE88F9E451_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchMetroModel.tblForedetails__764CFBE8_0A0C_44F9_9BC6_F0DDE824DB75_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchMetroModel.tblOpportunityDetails__E344C925_7D5E_420F_97A5_B1F482BBB964_" ManuallyRouted="false" />
+        <AssociationConnector Association="SJAMsSynchMetroModel.tblOrderDetails__27E9B706_8E23_496D_AFD6_33C001D60FF3_" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
